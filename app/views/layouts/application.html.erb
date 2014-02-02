@@ -8,7 +8,31 @@
 </head>
 <body>
 
+<div class="navbar">
+  <ul class="nav">
+    <li><a class="nav-link" href="https://plus.google.com/?gpsrc=ogpy0&tab=wX">+You</a></li>
+    <li><a class="nav-link" href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+    <li><a class="nav-link" href="https://www.google.com/imghp?hl=en&tab=wi&ei=XYbtUsTAC5OzsQT_-4CQBg&ved=0CAQQqi4oAg">Images</a></li>
+    <li class="nav-link" id="nav-menu-icon"></li>
+
+    <li id="nav-signin"><a class="nav-link" id="signin-button" href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/">Sign in</a></li>
+  </ul>
+</div>
+
 <%= yield %>
+
+<div class="footer">
+  <ul class="foot">
+    <li><a class="foot-link" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+    <li><a class="foot-link" href="https://www.google.com/services/?fg=1">Business</a></li>
+    <li><a class="foot-link" href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
+
+    <span id="footer-right-links">
+      <li><a class="foot-link" href="https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a></li>
+      <li><a class="foot-link" href="https://www.google.com/preferences?hl=en">Settings</a></li>
+    </span>
+  </ul>
+</div>
 
 </body>
 </html>
